@@ -1,0 +1,12 @@
+body{
+    background-color: #105033;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#header li{
+    list-style: none;
+}

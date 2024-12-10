@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+
+    <link rel="stylesheet" href="signup.css">
+
+</head>
+<body>
+    
+    <div class="signup-box">
+        <form action="login.html">
+            <h1 style="color: white; text-align: center; margin-bottom: 30px;">SIGNUP</h1>
+            <div class="input-box">
+                <label class="label">First Name<input type="text" placeholder="Enter First Name" required></label>
+            </div>
+            <div class="input-box">
+                <label class="label">Middle Name<input type="text" placeholder="Enter Middle Name"></label>
+            </div>
+            <div class="input-box">
+                <label class="label">Last Name<input type="text" placeholder="Enter Last Name"></label>
+            </div>
+            <div class="input-box">
+                <label class="label">DOB<input type="number" placeholder="Enter Year of Birth" min="2006"></label>
+            </div>
+            <div class="input-box">
+                <label class="label">Email<input type="email" placeholder="Enter Valid Email" required></label>
+            </div>
+            <div class="input-box">
+                <label class="label">Phone<input type="tel" placeholder="Enter Valid Contact Number" pattern="[0-9]{10}" required></label>
+            </div>
+            <div class="input-box">
+                <label class="label">Username<input type="text" placeholder="Create a Username" required></label>
+            </div>
+            <div class="input-box">
+                <label class="label">Create Password<input type="password" placeholder="Create a Strong Password" maxlength="8" required></label>
+            </div>
+            <div class="input-box">
+                <label class="label">Confirm Password<input type="password" placeholder="Re-enter Password"></label>
+            </div>
+            
+            <input type="submit" value="sign-up" class=" signup input-box">
+            
+        </form>
+    </div>
+</body>
+</html>

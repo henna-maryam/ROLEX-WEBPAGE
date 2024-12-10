@@ -1,0 +1,265 @@
+html body{
+    margin: 0;
+    padding: 0;
+    /* width: 100vh; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; */
+}
+
+a{
+    text-decoration: none;
+    /* color: black; */
+}
+
+/* .search{
+    width: 0;
+    transition: width 0.4 ease-in-out, padding 0.4 ease-in-out;
+} */
+
+#rol{
+    margin-left: 265px;
+    margin-top: 22px;
+}
+
+#menn{
+    display: flex;
+    align-items: center;
+}
+
+#menn p{
+    margin-bottom: 32%;
+    padding-left: 3px;
+}
+
+#search{
+    display: flex;
+    align-items: center;
+}
+
+#search p{
+    margin-bottom: 34%;
+    padding-left: 3px;
+}
+
+#loc{
+    display: flex;
+    align-items: center;
+}
+
+#loc p{
+    margin-bottom: 22%;
+    padding-left: 3px;
+}
+
+#fav{
+    display: flex;
+    align-items: center;
+}
+
+#fav p{
+    margin-bottom: 25%;
+    padding-left: 5px;
+}
+
+header{
+    /* border: 2px solid; */
+    padding: 20px;
+    background-color: #105033;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#header{
+    /* display: flex; */
+    display: inline-flex;
+    float: right; 
+ 
+ }
+ 
+ #header li{
+     /* align-items: last baseline; */
+     list-style: none;
+     padding-right: 25px;
+     /* float: right; */
+     /* align-items: flex-end; */
+ 
+ }
+
+ .rolex{
+    position: relative;
+    width: 100%;
+    height: 5%;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* border: 0; */
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.rolex .text1{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.rolex .text2{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    left: 45%;
+    bottom: 10%;
+    /* transform: translate(-50%, -50%); */
+}
+
+
+.img{
+    position: relative;
+    width: 100%;
+    /* height: 5%; */
+}
+
+.imgt{
+    margin: 0 0 0 90px
+}
+
+.img .imgt{
+    position: absolute;
+    /* color: white; */
+    /* text-align: center; */
+    top: 50%;
+    /* left: 20%; */
+    font-size: 30px;
+    animation: rising-up 1s forwards ease-in-out;
+    animation-delay: 1s;
+}
+
+@keyframes rising-up{
+    0% {transform: translate(0%,0%) scale(0); opacity: 0;}
+    50% {transform: translate(0%,0%) scale(1.2); opacity: 1;}
+    100% {transform: translate(0%,0%) scale(1); opacity: 1;}
+}
+
+
+
+.explore{
+    /* border: 2px solid; */
+    margin-bottom: 200px;
+    /* padding: auto; */
+    height: 100px;
+}
+
+.left{
+    float: left;
+    margin-left: 70px;
+    margin-top: 30px;
+    /* border: 2px solid; */
+    width: 400px;
+    height: 180px;
+}
+
+.right{
+    margin-top: 60px;
+    margin-right: 80px;
+    float: right;
+    /* border: 2px solid; */
+    width: 600px;
+    height: 180px;
+    text-align: justify;
+}
+
+.navs{
+    /* position: -webkit-sticky; */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    padding: 15px 0;
+    background: rgb(237, 237, 237, .1);
+    backdrop-filter: blur(10px);
+}
+
+.navs ul{
+    display: flex;
+    justify-content: center; 
+}
+
+.navs li{
+    list-style: none;
+    padding-right: 100px;
+    color: #105033;
+    font-weight: bold;
+}
+
+.home{
+    padding-left: 100px;
+}
+
+footer{
+    margin: 100px;
+    /* background-color: #F8F8F8; */
+}
+
+.links ul{
+    /* margin-left: 0; */
+    list-style: none;
+    display: flex;
+    padding-left: 100px;
+}
+
+.links li{
+    padding-right: 30px;
+}
+
+#footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#footer li{
+    color: black;
+}
+
+h3{
+    padding: 0px;
+    margin-bottom: 2px;
+}
+
+li{
+    line-height: 25px;
+}
+
+#footer ul{
+    list-style: none;
+}
+
+/* .footer{
+    gap: 10px;
+} */
+
+#last{
+    position: relative;
+}
+
+#last #lastt{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
